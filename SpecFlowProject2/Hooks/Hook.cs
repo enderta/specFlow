@@ -1,33 +1,30 @@
-using System;
-using BoDi;
+
 using OpenQA.Selenium;
 using SpecFlowProject2.Drivers;
-using TechTalk.SpecFlow;
+
 
 namespace SpecFlowProject2.Hooks
 {
     [Binding]
     public class Hooks
     {
-       private readonly IWebDriver driver;
-
-        public Hooks(IWebDriver driver)
-        {
-            this.driver = driver;
-        }
-
-        [BeforeScenario ("wip")]
+        [BeforeScenario("wip")]
         public void BeforeScenario()
         {
-            var driver = DriverManager.GetDriver();
-            driver.Manage().Window.Maximize();
+            System.Console.WriteLine("BeforeScenario");
+            //wait for one minute
+            DriverManager.GetDriver().Manage().Timeouts().ImplicitWait = System.TimeSpan.FromSeconds(60);
+            //maximize the window
+            DriverManager.GetDriver().Manage().Window.Maximize();
+            //wait for one minute
+            DriverManager.GetDriver().Manage().Timeouts().PageLoad = System.TimeSpan.FromSeconds(60);
         }
 
-        [AfterScenario ("wip")]
+        [AfterScenario("wip")]
         public void AfterScenario()
         {
-            var driver = DriverManager.GetDriver();
-            driver.Quit();
+            //implicit wait for one minute
+            DriverManager.GetDriver().Quit();
         }
     }
 }

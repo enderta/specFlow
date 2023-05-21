@@ -38,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoFixture": {
+              "target": "Package",
+              "version": "[4.18.0, )"
+            },
             "FluentAssertions": {
               "target": "Package",
               "version": "[6.2.0, )"
@@ -61,6 +65,10 @@
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
               "version": "[113.0.5672.2400, )"
+            },
+            "SpecFlow.Assist.Dynamic": {
+              "target": "Package",
+              "version": "[1.4.2, )"
             },
             "SpecFlow.NUnit": {
               "target": "Package",
