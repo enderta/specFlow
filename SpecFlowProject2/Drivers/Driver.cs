@@ -6,15 +6,15 @@ namespace SpecFlowProject2.Drivers
 {
   public static class DriverManager
   {
-    private static IWebDriver driver;
+    private static WebDriver driver;
 
-    public static IWebDriver GetDriver()
+    public static WebDriver GetDriver()
     {
       if (driver == null)
       {
-        // Initialize the driver here
         driver = new ChromeDriver();
       }
+
       return driver;
     }
   }

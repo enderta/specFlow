@@ -9,24 +9,24 @@ namespace SpecFlowProject2.Hooks
     [Binding]
     public class Hooks
     {
-        private readonly IObjectContainer objectContainer;
+       private readonly IWebDriver driver;
 
-        public Hooks(IObjectContainer objectContainer)
+        public Hooks(IWebDriver driver)
         {
-            this.objectContainer = objectContainer;
+            this.driver = driver;
         }
 
-        [BeforeScenario]
+        [BeforeScenario ("wip")]
         public void BeforeScenario()
         {
             var driver = DriverManager.GetDriver();
-            objectContainer.RegisterInstanceAs(driver);
+            driver.Manage().Window.Maximize();
         }
 
-        [AfterScenario]
+        [AfterScenario ("wip")]
         public void AfterScenario()
         {
-            var driver = objectContainer.Resolve<IWebDriver>();
+            var driver = DriverManager.GetDriver();
             driver.Quit();
         }
     }

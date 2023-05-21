@@ -6,16 +6,16 @@ namespace SpecFlowProject2.Pages
 {
     public class LoginPage
     {
-        private readonly IWebDriver _driver;
+        private readonly WebDriver _driver;
         private readonly By _usernameField = By.Id("user-name");
         private readonly By _passwordField = By.Id("password");
         private readonly By _loginButton = By.Id("login-button");
         private readonly By _errorMessage = By.CssSelector("[data-test='error']");
-        private readonly string url = ConfigurationReader.GetAppSetting("url");
+        private readonly string url = "https://www.saucedemo.com/";
 
-        public LoginPage(IWebDriver driver)
+        public LoginPage(WebDriver driver)
         {
-            this._driver = driver;
+            _driver = driver;
         }
         
         public void GoTo()

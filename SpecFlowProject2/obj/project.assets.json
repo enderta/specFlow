@@ -18,20 +18,16 @@
           "build/_._": {}
         }
       },
-      "Cucumber.Messages/21.0.1": {
+      "Cucumber.Messages/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Google.Protobuf": "3.21.12"
+          "Google.Protobuf": "3.7.0"
         },
         "compile": {
-          "lib/netstandard2.0/Cucumber.Messages.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Cucumber.Messages.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Cucumber.Messages.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Cucumber.Messages.dll": {}
         }
       },
       "FluentAssertions/6.2.0": {
@@ -63,15 +59,18 @@
           }
         }
       },
-      "Google.Protobuf/3.21.12": {
+      "Google.Protobuf/3.7.0": {
         "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
         "compile": {
-          "lib/net5.0/Google.Protobuf.dll": {
+          "lib/netstandard1.0/Google.Protobuf.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net5.0/Google.Protobuf.dll": {
+          "lib/netstandard1.0/Google.Protobuf.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -1716,20 +1715,17 @@
         "tools/_._"
       ]
     },
-    "Cucumber.Messages/21.0.1": {
-      "sha512": "LLiXf+szR4rK3b5SPp3K8e0yGDL///LMTvTygfIQqzgV1NU4DesJ1/vrMbN6TmtzSLJDD6IXFQ9iuzY1whIQeg==",
+    "Cucumber.Messages/6.0.1": {
+      "sha512": "R/2XAU6Zwdnlgga/YLYxwbKf4ai0JYyeX25l85t0nNgagR2aP8hnqrLtJjgswuXVa2WlQdjXUfJqUX8YTjzlXw==",
       "type": "package",
-      "path": "cucumber.messages/21.0.1",
+      "path": "cucumber.messages/6.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "cucumber-mark-green-128.png",
-        "cucumber.messages.21.0.1.nupkg.sha512",
+        "cucumber.messages.6.0.1.nupkg.sha512",
         "cucumber.messages.nuspec",
         "lib/net45/Cucumber.Messages.dll",
-        "lib/net45/Cucumber.Messages.xml",
-        "lib/netstandard2.0/Cucumber.Messages.dll",
-        "lib/netstandard2.0/Cucumber.Messages.xml"
+        "lib/netstandard2.0/Cucumber.Messages.dll"
       ]
     },
     "FluentAssertions/6.2.0": {
@@ -1777,27 +1773,21 @@
         "lib/netstandard2.0/Gherkin.xml"
       ]
     },
-    "Google.Protobuf/3.21.12": {
-      "sha512": "1TXWxQy0PDDM1NC/LojlX4YVh7NhOvvyriCfERzeUVTp0XNXv8mo/AyWxDYCvMQ9xRZHUVdWoE4/B8ridP8Btg==",
+    "Google.Protobuf/3.7.0": {
+      "sha512": "OvssyqQTrpJgdH4fjztsCV9AhUo9jgGpDbZ5XAAqC+X6MIUsifHk8Woeom1HXlHdqo/XebiEMpYySE9AxybJ9g==",
       "type": "package",
-      "path": "google.protobuf/3.21.12",
+      "path": "google.protobuf/3.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "google.protobuf.3.21.12.nupkg.sha512",
+        "google.protobuf.3.7.0.nupkg.sha512",
         "google.protobuf.nuspec",
         "lib/net45/Google.Protobuf.dll",
         "lib/net45/Google.Protobuf.pdb",
         "lib/net45/Google.Protobuf.xml",
-        "lib/net5.0/Google.Protobuf.dll",
-        "lib/net5.0/Google.Protobuf.pdb",
-        "lib/net5.0/Google.Protobuf.xml",
-        "lib/netstandard1.1/Google.Protobuf.dll",
-        "lib/netstandard1.1/Google.Protobuf.pdb",
-        "lib/netstandard1.1/Google.Protobuf.xml",
-        "lib/netstandard2.0/Google.Protobuf.dll",
-        "lib/netstandard2.0/Google.Protobuf.pdb",
-        "lib/netstandard2.0/Google.Protobuf.xml"
+        "lib/netstandard1.0/Google.Protobuf.dll",
+        "lib/netstandard1.0/Google.Protobuf.pdb",
+        "lib/netstandard1.0/Google.Protobuf.xml"
       ]
     },
     "Microsoft.CodeCoverage/17.0.0": {
@@ -5774,7 +5764,6 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Cucumber.Messages >= 21.0.1",
       "FluentAssertions >= 6.2.0",
       "Gherkin >= 26.0.3",
       "Microsoft.NET.Test.Sdk >= 17.0.0",
@@ -5823,10 +5812,6 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
-          "Cucumber.Messages": {
-            "target": "Package",
-            "version": "[21.0.1, )"
-          },
           "FluentAssertions": {
             "target": "Package",
             "version": "[6.2.0, )"
@@ -5883,17 +5868,5 @@
         "runtimeIdentifierGraphPath": "/home/ender/.dotnet/sdk/6.0.408/RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: SpecFlow 3.9.22 requires Cucumber.Messages (>= 6.0.1 && < 7.0.0) but version Cucumber.Messages 21.0.1 was resolved.",
-      "libraryId": "Cucumber.Messages",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }

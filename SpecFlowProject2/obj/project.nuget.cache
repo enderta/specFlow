@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "wxnjlR5A9CliCHxDBgLR/lEG6Z+MRDhqkT5s/tQXhZ3UIZsARWHlDIwDBm39lN//mHp5gS0CDFkIQBo0ildRuQ==",
+  "dgSpecHash": "HU5dbTiuyi3Vj3szd+XFg6zZ1g1hlAIW9awFu3wIntw4eay/42gqIEpi2gyGdRkHdqKz8dLzt7KHxYdm6ufNHg==",
   "success": true,
   "projectFilePath": "/home/ender/RiderProjects/SpecFlowProject2/SpecFlowProject2/SpecFlowProject2.csproj",
   "expectedPackageFiles": [
     "/home/ender/.nuget/packages/bodi/1.5.0/bodi.1.5.0.nupkg.sha512",
-    "/home/ender/.nuget/packages/cucumber.messages/21.0.1/cucumber.messages.21.0.1.nupkg.sha512",
+    "/home/ender/.nuget/packages/cucumber.messages/6.0.1/cucumber.messages.6.0.1.nupkg.sha512",
     "/home/ender/.nuget/packages/fluentassertions/6.2.0/fluentassertions.6.2.0.nupkg.sha512",
     "/home/ender/.nuget/packages/gherkin/26.0.3/gherkin.26.0.3.nupkg.sha512",
-    "/home/ender/.nuget/packages/google.protobuf/3.21.12/google.protobuf.3.21.12.nupkg.sha512",
+    "/home/ender/.nuget/packages/google.protobuf/3.7.0/google.protobuf.3.7.0.nupkg.sha512",
     "/home/ender/.nuget/packages/microsoft.codecoverage/17.0.0/microsoft.codecoverage.17.0.0.nupkg.sha512",
     "/home/ender/.nuget/packages/microsoft.dotnet.platformabstractions/1.0.3/microsoft.dotnet.platformabstractions.1.0.3.nupkg.sha512",
     "/home/ender/.nuget/packages/microsoft.extensions.dependencymodel/1.0.3/microsoft.extensions.dependencymodel.1.0.3.nupkg.sha512",
@@ -94,16 +94,5 @@
     "/home/ender/.nuget/packages/system.threading/4.3.0/system.threading.4.3.0.nupkg.sha512",
     "/home/ender/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: SpecFlow 3.9.22 requires Cucumber.Messages (>= 6.0.1 && < 7.0.0) but version Cucumber.Messages 21.0.1 was resolved.",
-      "libraryId": "Cucumber.Messages",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

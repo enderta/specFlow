@@ -38,10 +38,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Cucumber.Messages": {
-              "target": "Package",
-              "version": "[21.0.1, )"
-            },
             "FluentAssertions": {
               "target": "Package",
               "version": "[6.2.0, )"
