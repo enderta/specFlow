@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kufC6QTVRvi8qFbVkyAsjvMJErYLrNN0AUavkUMnh0kGXgWCbwnD1ns6ljVqX7JIfh2SxRZx9bSLLK4vnr08SA==",
+  "dgSpecHash": "3UYUOMKqKn3Ur8sO6QIpX2pzrNOtrquZA2N0lroDY/I9DosIjFgcOXdtRUF7mMl9TF51DopSwoF/hs6aNbyjWQ==",
   "success": true,
   "projectFilePath": "/home/ender/RiderProjects/SpecFlowProject2/SpecFlowProject2/SpecFlowProject2.csproj",
   "expectedPackageFiles": [
@@ -41,6 +41,7 @@
     "/home/ender/.nuget/packages/runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl/4.3.2/runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "/home/ender/.nuget/packages/runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl/4.3.2/runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "/home/ender/.nuget/packages/runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.2/runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
+    "/home/ender/.nuget/packages/selenium.support/4.9.1/selenium.support.4.9.1.nupkg.sha512",
     "/home/ender/.nuget/packages/selenium.webdriver/4.9.1/selenium.webdriver.4.9.1.nupkg.sha512",
     "/home/ender/.nuget/packages/selenium.webdriver.chromedriver/113.0.5672.2400/selenium.webdriver.chromedriver.113.0.5672.2400.nupkg.sha512",
     "/home/ender/.nuget/packages/specflow/3.9.22/specflow.3.9.22.nupkg.sha512",

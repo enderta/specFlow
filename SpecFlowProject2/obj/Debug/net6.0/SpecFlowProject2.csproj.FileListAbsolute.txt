@@ -121,3 +121,4 @@
 /home/ender/RiderProjects/SpecFlowProject2/SpecFlowProject2/bin/Debug/net6.0/SpecFlow.Assist.Dynamic.dll
 /home/ender/RiderProjects/SpecFlowProject2/SpecFlowProject2/bin/Debug/net6.0/AutoFixture.dll
 /home/ender/RiderProjects/SpecFlowProject2/SpecFlowProject2/bin/Debug/net6.0/Fare.dll
+/home/ender/RiderProjects/SpecFlowProject2/SpecFlowProject2/bin/Debug/net6.0/WebDriver.Support.dll

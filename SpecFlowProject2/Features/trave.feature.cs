@@ -84,9 +84,11 @@ namespace SpecFlowProject2.Features
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Register a new user")]
+        [NUnit.Framework.CategoryAttribute("wip")]
         public virtual void RegisterANewUser()
         {
-            string[] tagsOfScenario = ((string[])(null));
+            string[] tagsOfScenario = new string[] {
+                    "wip"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Register a new user", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 6
