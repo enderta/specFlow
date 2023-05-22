@@ -4,5 +4,6 @@
     &lt;TestId&gt;NUnit3x::18FCBD93-24A1-4DFA-BCF5-EF2CA5559A86::net6.0::SpecFlowProject2.Features.SauceFeature&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::18FCBD93-24A1-4DFA-BCF5-EF2CA5559A86::net6.0::SpecFlowProject2.Steps.Demo.Test&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::18FCBD93-24A1-4DFA-BCF5-EF2CA5559A86::net6.0::SpecFlowProject2.Features.CalculatorFeature.AddTwoNumbers&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::18FCBD93-24A1-4DFA-BCF5-EF2CA5559A86::net6.0::SpecFlowProject2.Features.UserRegistrationAndLoginFeature.RegisterANewUser&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
