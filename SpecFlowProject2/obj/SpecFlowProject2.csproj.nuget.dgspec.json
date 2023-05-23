@@ -42,6 +42,14 @@
               "target": "Package",
               "version": "[4.18.0, )"
             },
+            "ExtentReports": {
+              "target": "Package",
+              "version": "[5.0.0-alpha6, )"
+            },
+            "ExtentReports.Core": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
             "FluentAssertions": {
               "target": "Package",
               "version": "[6.2.0, )"
@@ -81,6 +89,10 @@
             "SpecFlow.Plus.LivingDocPlugin": {
               "target": "Package",
               "version": "[3.9.57, )"
+            },
+            "WebDriverManager": {
+              "target": "Package",
+              "version": "[2.16.2, )"
             },
             "nunit": {
               "target": "Package",
